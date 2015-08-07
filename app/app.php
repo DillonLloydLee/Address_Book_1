@@ -3,10 +3,11 @@
     require_once __DIR__."/../src/Contact.php";
 
     // Start a new session.
-    // Initiate list_of_contacts as an empty array.
+    // Initiate contacts as an empty array.
 
     session_start();
 
+    $contacts = array();
     if (empty($_SESSION['list_of_contacts'])) {
         $_SESSION['list_of_contacts'] = $contacts;
     }
