@@ -8,7 +8,7 @@
     session_start();
 
     if (empty($_SESSION['list_of_contacts'])) {
-        $_SESSION['list_of_contacts'] = $cars;
+        $_SESSION['list_of_contacts'] = $contacts;
     }
 
     // Initiate Silex and Twig.

@@ -11,12 +11,10 @@
                 <div class="col-md-4">
                     <h1>My Address Book</h1>
 
-                    <a class="btn btn-default" href="/add_contact_form" role="button">Add Contact</a>
+                    <a class="btn btn-default" href="/" role="button">See All Contacts</a>
                     <a class="btn btn-default" href="/delete_contacts" role="button">Delete All</a>
 
-                    {% if cars is empty %}
-                        <h3>No Contacts Currently Saved.</h3>
-                    {% endif %}
+                    <h3>{{ newcontact.getname }} successfully added to your address book!</h3>
 
                 </div>
                 <div class="col-md-4"></div>

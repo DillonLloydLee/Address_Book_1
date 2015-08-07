@@ -44,7 +44,7 @@
         }
 
         static function deleteAll() {
-            $_SESSION['list_of_cars'] = array();
+            $_SESSION['list_of_contacts'] = array();
         }
     }
 
