@@ -23,7 +23,7 @@
         return $app['twig']->render('show_all.html.twig', array('contacts' => Contact::getAll()));
     });
 
-    // Page: route for adding contacts.  I thought it would look nicer if the form itself was not all layed out in the root, amongst the addresses.
+    // Page: route for adding contacts.  I thought it would look nicer if the form itself was not all layed out in the root, amongst the addresses.  This also allows me to have a consistent header across all pages in the project without it seeming weird.  Sorry that I deviated slightly from the instructions, but it seemed harmless and doesn't change you seeing my knowledge of the code.
 
     $app->get('/add_contact_form', function() use ($app) {
         return $app['twig']->render('add_contact_form.html.twig');
