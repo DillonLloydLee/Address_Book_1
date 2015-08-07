@@ -9,10 +9,15 @@
             <div class="row">
                 <div class="col-md-4"></div>
                 <div class="col-md-4">
-                    <h1>My Address Book</h1>
+                    <h1 class="text-center">My Address Book</h1>
 
-                    <a class="btn btn-default" href="/" role="button">See All Contacts</a>
-                    <a class="btn btn-default" href="/delete_contacts" role="button">Delete All</a>
+                        <div class="text-center">
+                            <a class="btn btn-default" href="/"
+                            role="button">Show All Contacts</a>
+                            <a class="btn btn-default" href="/delete_contacts"
+                            role="button">Delete All Contacts</a>
+                        </div>
+                        <hr>
 
                     <h3>{{ newcontact.getname }} successfully added to your address book!</h3>
 

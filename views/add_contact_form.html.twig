@@ -9,14 +9,17 @@
             <div class="row">
                 <div class="col-md-4"></div>
                 <div class="col-md-4">
-                    <h1>My Address Book</h1>
+                    <h1 class="text-center">My Address Book</h1>
 
-                    <a class="btn btn-default" href="/add_contact_form" role="button">Add Contact</a>
-                    <a class="btn btn-default" href="/delete_contacts" role="button">Delete All</a>
+                        <div class="text-center">
+                            <a class="btn btn-default" href="/"
+                            role="button">Show All Contacts</a>
+                            <a class="btn btn-default" href="/delete_contacts"
+                            role="button">Delete All Contacts</a>
+                        </div>
+                        <hr>
 
-                    {% if contacts is empty %}
-                        <h3>No Contacts Currently Saved.</h3>
-                    {% endif %}
+                        <h3>XXXX.</h3>
 
                 </div>
                 <div class="col-md-4"></div>
