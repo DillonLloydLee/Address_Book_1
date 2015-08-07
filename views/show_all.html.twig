@@ -12,16 +12,23 @@
                     <h1 class="text-center">My Address Book</h1>
 
                         <div class="text-center">
+                            <a class="btn btn-default" href="/"
+                            role="button">View All Contacts</a>
                             <a class="btn btn-default" href="/add_contact_form"
                             role="button">Add New Contact</a>
-                            <a class="btn btn-default" href="/delete_contacts"
-                            role="button">Delete All Contacts</a>
                         </div>
                         <hr>
 
                     {% if contacts is empty %}
                         <h3 class="text-center">No Contacts Currently Saved.</h3>
                     {% endif %}
+
+                    <br><hr>
+                    <form class="text-center" action='delete_contacts' method='post'>
+                        <div class='form-group'>
+                            <button class='btn btn-danger' type='submit'>Delete All Contacts</button>
+                        </div>
+                    </form>
 
                 </div>
                 <div class="col-md-4"></div>
