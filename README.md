@@ -2,7 +2,7 @@
 
 #### _a simple program for adding and displaying contacts, August 7th, 2015_
 
-#### By _**Dillon Lloyd Lee**_
+#### by _**Dillon Lloyd Lee**_
 
 ## Description
 
